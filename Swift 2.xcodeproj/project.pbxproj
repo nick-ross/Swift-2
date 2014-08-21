@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		18A0F6ED19A4E9E300D09A56 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A0F6EC19A4E9E300D09A56 /* main.swift */; };
+		18A0F6F419A4EA6F00D09A56 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A0F6F319A4EA6F00D09A56 /* Car.swift */; };
+		18A0F6F619A4F9BB00D09A56 /* TurboCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A0F6F519A4F9BB00D09A56 /* TurboCar.swift */; };
+		18A0F6F819A4FD5400D09A56 /* HybridCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A0F6F719A4FD5400D09A56 /* HybridCar.swift */; };
+		18A0F6FA19A5012B00D09A56 /* PickupTruck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A0F6F919A5012B00D09A56 /* PickupTruck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		18A0F6E919A4E9E300D09A56 /* Swift 2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Swift 2"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A0F6EC19A4E9E300D09A56 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		18A0F6F319A4EA6F00D09A56 /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		18A0F6F519A4F9BB00D09A56 /* TurboCar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TurboCar.swift; sourceTree = "<group>"; };
+		18A0F6F719A4FD5400D09A56 /* HybridCar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HybridCar.swift; sourceTree = "<group>"; };
+		18A0F6F919A5012B00D09A56 /* PickupTruck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickupTruck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				18A0F6EC19A4E9E300D09A56 /* main.swift */,
+				18A0F6F719A4FD5400D09A56 /* HybridCar.swift */,
+				18A0F6F519A4F9BB00D09A56 /* TurboCar.swift */,
+				18A0F6F319A4EA6F00D09A56 /* Car.swift */,
+				18A0F6F919A5012B00D09A56 /* PickupTruck.swift */,
 			);
 			path = "Swift 2";
 			sourceTree = "<group>";
@@ -118,7 +130,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A0F6F419A4EA6F00D09A56 /* Car.swift in Sources */,
 				18A0F6ED19A4E9E300D09A56 /* main.swift in Sources */,
+				18A0F6FA19A5012B00D09A56 /* PickupTruck.swift in Sources */,
+				18A0F6F819A4FD5400D09A56 /* HybridCar.swift in Sources */,
+				18A0F6F619A4F9BB00D09A56 /* TurboCar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
